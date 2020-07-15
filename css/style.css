@@ -45,13 +45,13 @@ body {
 }
 
 a {
-  color: #F73859;
+  color: #312374;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F73859;
+  color: #312374;
   outline: none;
   text-decoration: none;
 }
@@ -69,17 +69,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F73859;
+  background: #312374;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F73859;
+  background: #312374;
 }
 
 ::selection {
   color: #fff;
-  background: #F73859;
+  background: #312374;
 }
 
 .fh5co-nav {
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo a > span {
-  color: #F73859;
+  color: #312374;
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F73859;
+  color: #312374;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #f35f55;
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 4px;
 }
 .fh5co-nav ul li.btn-cta a:hover span {
-  background: #f14034 !important;
+  background: #312374 !important;
   -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
@@ -244,13 +244,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .scrolled .fh5co-nav ul li a:hover, .scrolled .fh5co-nav ul li a:focus, .scrolled .fh5co-nav ul li a:active {
-  color: #F73859 !important;
+  color: #312374 !important;
 }
 .scrolled .fh5co-nav ul li.active a {
-  color: #F73859;
+  color: #312374;
 }
 .scrolled .fh5co-nav ul li.has-dropdown:hover > a, .scrolled .fh5co-nav ul li.has-dropdown:focus > a {
-  color: #F73859;
+  color: #312374;
 }
 
 #fh5co-header,
@@ -295,7 +295,9 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(42, 51, 86, 0.9);
+  background-image: url("../../concept/images/insurance_internet/insurance.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -412,7 +414,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .pagination > li.active > a:hover {
   cursor: pointer;
-  background: #f96982 !important;
+  background: #312374 !important;
 }
 
 .fh5co-social-icons {
@@ -433,7 +435,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F73859;
+  color: #312374;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -497,7 +499,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #fff;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -528,7 +530,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 30px;
-  background: #F73859;
+  background: #312374;
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -541,7 +543,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #f6163c !important;
+  background: #312374 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -657,7 +659,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-color: #fff transparent;
 }
 #fh5co-testimonial .testimonial.fh5co-selected {
-  background: #F73859;
+  background: #f3ef12;
   bottom: 10px;
   -webkit-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
@@ -670,7 +672,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-testimonial .testimonial.fh5co-selected:after {
-  border-color: #F73859 transparent;
+  border-color: #f3ef12 transparent;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimonial .testimonial.fh5co-selected {
@@ -697,10 +699,10 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
 }
 #fh5co-blog .fh5co-post h3 a {
-  color: #F73859;
+  color: #312374;
 }
 #fh5co-blog .fh5co-post h3 a:hover {
-  color: #f35f55;
+  color: #312374;
 }
 #fh5co-blog .fh5co-post .fh5co-date {
   display: block;
@@ -750,7 +752,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .counter {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #F73859;
+  color: #312374;
   font-weight: 100;
   display: block;
 }
@@ -1588,21 +1590,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-danger {
-  background: #d9534f;
+  background: #312374;
   color: #fff;
-  border: 2px solid #d9534f;
+  border: 2px solid #312374;
 }
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
-  background: #d43f3a !important;
-  border-color: #d43f3a !important;
+  background: #312374 !important;
+  border-color: #312374 !important;
 }
 .btn-danger.btn-outline {
   background: transparent;
-  color: #d9534f;
-  border: 2px solid #d9534f;
+  color: #312374;
+  border: 2px solid #312374;
 }
 .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
-  background: #d9534f;
+  background: #312374;
   color: #fff;
 }
 
@@ -1656,7 +1658,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F73859;
+  border-color: #312374;
 }
 
 .mb30 {
