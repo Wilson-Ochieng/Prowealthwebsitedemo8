@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #312374;
+  background: #f1094f;
 }
 
 ::-moz-selection {
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #312374;
+  background:  #eeea0a;
 }
 
 .fh5co-nav {
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo a > span {
-  color: #312374;
+  color: #eeea0a;
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background-image: url("../images/insurance_internet/insurance.jpg");
+  background-image: url("../images/insurance_internet/ferrari-1903603_1920.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
