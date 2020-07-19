@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #f1094f;
+  background: #eeea0a;
 }
 
 ::-moz-selection {
@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 30px;
-  background: #312374;
+  background: transparent;
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -543,7 +543,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #312374 !important;
+  background: transparent !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -1514,13 +1514,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #F73859;
-  color: #fff;
-  border: 2px solid #F73859;
+  background:#fff;
+  color: #000;
+  border: 2px solid #000;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f8516d !important;
-  border-color: #f8516d !important;
+  background: #f3f4f5 !important;
+  border-color: #f3f4f5 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
