@@ -107,7 +107,16 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-weight: bold;
 }
-@media screen and (max-width: 768px) {
+.slogan {
+  position: center;
+  line-height:1;
+  top: 0px; /* Changes the space between the logo and the slogan */
+  font-size: .6em; /* Changes the font size of the slogan */
+  font-style: italic; /* Changes the font style of the slogan */
+  color:#eeea0a; /* Changes the color of the slogan */
+  letter-spacing:0px; /* Changes the letter spacing of the slogan */
+}
+@media screen and (max-width: 7px) {
   .fh5co-nav #fh5co-logo {
     margin-bottom: 0;
   }
@@ -295,7 +304,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background-image: url("../images/insurance_internet/ferrari-1903603_1920.jpg");
+  background-image: url("../images/motor_insurance/car-4608159_1920.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
